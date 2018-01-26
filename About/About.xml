@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>Exotic Joy</name>
+<author>✬Rustic Fox✬</author>
+<url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
+<targetVersion>0.18.1722</targetVersion>
+<description>
+A mod that adds the abillity to place Telescops, Flatscreen and Megascreen Tv's
+  
+Research
+  
+Telescope 500 No Prerequisites
+Flatscreens 1600 Requires TubeTelevision
+Megascreen 3200 Requires Flatscreen
+  
+Version: 1.0.2
+</description>
+</ModMetaData>
