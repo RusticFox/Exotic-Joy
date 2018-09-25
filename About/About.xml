@@ -3,16 +3,15 @@
 <name>Exotic Joy</name>
 <author>✬Rustic Fox✬</author>
 <url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
-<targetVersion>0.18.1722</targetVersion>
+<targetVersion>0.19.2009</targetVersion>
 <description>
-A mod that adds the abillity to place Telescops, Flatscreen and Megascreen Tv's
+A mod that adds the abillity to build Telescops, Megascreen Tv's and removes the max tech level of hoopstone and game of ur so you can now use the when ever.
   
 Research
   
-Telescope 500 No Prerequisites
-Flatscreens 1600 Requires TubeTelevision
-Megascreen 3200 Requires Flatscreen
+Telescope 1000 Requires MicroelectronicsBasics
+Megascreen 4000 Requires Flatscreen and MicroelectronicsBasics
   
-Version: 1.0.2
+Version: 2.0.0
 </description>
 </ModMetaData>
