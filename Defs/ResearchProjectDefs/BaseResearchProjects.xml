@@ -19,7 +19,7 @@
 		<defName>Megascreen</defName>
 		<label>MegascreenTelevision</label>
 		<description>Allows you to build megascreen televisions.</description>
-		<baseCost>2000</baseCost>
+		<baseCost>4000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>FlatscreenTelevision</li>
