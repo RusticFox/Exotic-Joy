@@ -1,17 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Exotic Joy</name>
-<author>✬Rustic Fox✬</author>
-<url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
-<targetVersion>0.19.2009</targetVersion>
-<description>
-A mod that adds the abillity to build Telescops, Megascreen Tv's and removes the max tech level of hoopstone and game of ur so you can now use the when ever.
-  
-Research
-  
-Telescope 1000 Requires MicroelectronicsBasics
-Megascreen 4000 Requires Flatscreen and MicroelectronicsBasics
-  
-Version: 2.0.0
-</description>
+  <name>Exotic Joy [1.0]</name>
+  <author>✬Rustic Fox✬</author>
+		<url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
+		<supportedVersions><li>1.0</li></supportedVersions>
+  <description>
+This mod will make tweaks to the base game you never knew you needed until now..
+
+Adds the following:
+
+✯ Horseshoe pins can now be used by all tech tiers
+✯ Horseshoe pins now show you the use area (unless cutoff)
+✯ Horseshoe pins are now rotatable
+✯ Game of UR can now be used by all tech tiers
+✯ Hoopstone can now be used by all tech tiers
+✯ Hoopstone now show you the use area (unless cutoff)
+✯ Hoopstone are now rotatable
+✯ Chess Tables can now be used by all tech tiers
+✯ Megascreen Televisions can now be constructed
+✯ Telescopes can now be constructed
+
+Research:
+- Telescope 1000 Requires MicroelectronicsBasics
+- Megascreen 2000 Requires FlatscreenTelevision and MicroelectronicsBasics
+- All research can be found under Rustic's Mods which is universal for my mods that require research (unless you use a mod tab editor then it will be whereever generated)
+
+Compatibility - Should be compatable with everything. Uses xpath patching and overwrites no core files.
+
+Older versions - https://github.com/RusticFox/Exotic-Joy
+
+Credits:
+TheGoofyOne - for updating this mod to 1.0 and maintaining untill this point
+	</description>
 </ModMetaData>
