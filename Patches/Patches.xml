@@ -1,0 +1,44 @@
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "GameOfUrBoard"]/maxTechLevelToBuild</xpath>
+        <value>
+			<maxTechLevelToBuild>Spacer</maxTechLevelToBuild>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "HoopstoneRing"]/maxTechLevelToBuild</xpath>
+        <value>
+			<maxTechLevelToBuild>Spacer</maxTechLevelToBuild>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[defName = "MegascreenTelevision"]/defaultPlacingRot</xpath>
+        <value>
+    <designationCategory>Joy</designationCategory>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[defName = "MegascreenTelevision"]/defaultPlacingRot</xpath>
+        <value>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[defName = "MegascreenTelevision"]/defaultPlacingRot</xpath>
+        <value>
+    <researchPrerequisites><li>Megascreen</li></researchPrerequisites>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[defName = "Telescope"]/socialPropernessMatters</xpath>
+        <value>
+    <designationCategory>Joy</designationCategory>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[defName = "Telescope"]/socialPropernessMatters</xpath>
+        <value>
+    <researchPrerequisites><li>Telescope</li></researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>
