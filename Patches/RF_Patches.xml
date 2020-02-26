@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!--=======================  Horseshoe Pin =======================-->
+  
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/minTechLevelToBuild</xpath>
+  </Operation>
+
+  <!--=======================  Game of UR =======================-->
+  
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName = "GameOfUrBoard"]/maxTechLevelToBuild</xpath>
+  </Operation>
+  
+  <!--=======================  Hoopstone Ring =======================-->
+ 
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]/maxTechLevelToBuild</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove"> 
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]/graphicData/shaderType</xpath>
+  </Operation>
+  
+  <!--=======================  Chess Table =======================-->
+  
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName = "ChessTable"]/minTechLevelToBuild</xpath>
+  </Operation>
+  
+  <!--=======================  Megascreen =======================-->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "MegascreenTelevision"]</xpath>
+		<value>
+			<designationCategory>Joy</designationCategory>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "MegascreenTelevision"]</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Megascreen</li>
+			</researchPrerequisites>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "MegascreenTelevision"]</xpath>
+		<value>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		</value>
+  </Operation>
+  
+  <!--=======================  Telescope =======================-->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Telescope"]</xpath>
+		<value>
+			<designationCategory>Joy</designationCategory>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Telescope"]</xpath>
+		<value>
+			<researchPrerequisites>
+			    <li>Machining</li>
+				<li>Telescope</li>
+			</researchPrerequisites>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Telescope"]</xpath>
+		<value>
+			<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		</value>
+  </Operation>
+  
+  <!--======================= v1.0 Exclusive Horseshoe Pin =======================-->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
+		<value>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
+		<value>
+  		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers> 
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/rotatable</xpath>
+		<value>
+      <rotatable>true</rotatable>
+		</value>
+  </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/graphicData/graphicClass</xpath>
+      <value>
+      <graphicClass>Graphic_Multi</graphicClass>
+      </value>
+   </Operation>
+   
+  <Operation Class="PatchOperationAdd"> 
+    <xpath>/Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
+		<value>
+       <defaultPlacingRot>North</defaultPlacingRot>
+		</value>
+  </Operation>
+  
+  <!--=======================  v1.0 Exclusive Hoopstone Ring =======================-->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]</xpath>
+		<value>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]</xpath>
+		<value>
+  		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers> 
+		</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]/rotatable</xpath>
+		<value>
+      <rotatable>true</rotatable>
+		</value>
+  </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]/graphicData/graphicClass</xpath>
+      <value>
+      <graphicClass>Graphic_Multi</graphicClass>
+      </value>
+   </Operation>
+   
+  <Operation Class="PatchOperationAdd"> 
+    <xpath>/Defs/ThingDef[defName = "HoopstoneRing"]</xpath>
+		<value>
+       <defaultPlacingRot>North</defaultPlacingRot>
+		</value>
+  </Operation>
+
+</Patch>
