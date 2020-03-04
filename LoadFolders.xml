@@ -5,11 +5,7 @@
 <loadFolders>
   <default>
     <li>Defs</li>
-  </default>
-  <default>
     <li>Patches</li>
-  </default>
-  <default>
     <li>Textures</li>
   </default>
   <v1.1>

@@ -11,8 +11,8 @@
             <li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<tab>RMRT</tab>
-		<researchViewX>6</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.65</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -27,8 +27,8 @@
 		</prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<tab>RMRT</tab>
-		<researchViewX>6</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.15</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>
