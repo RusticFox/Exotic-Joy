@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Exotic Joy [1.0/1.1]</name>
+  <name>Exotic Joy [1.0->1.2]</name>
   <author>✬Rustic Fox✬</author>
   <packageId>RusticFox.ExoticJoy</packageId>
   <url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
   <supportedVersions>
      <li>1.0</li>
      <li>1.1</li>
+	 <li>1.2</li>
   </supportedVersions>
   <description>
 This mod will make tweaks to the base game you never knew you needed until now..
@@ -29,12 +30,12 @@ Research:
 - Megascreen 2000 Requires FlatscreenTelevision and MicroelectronicsBasics
 - All research can be found under Rustic's Mods which is universal for my mods that require research (unless you use a mod tab editor then it will be whereever generated)
 
-Compatibility - Works with both game versions 1.0 and version 1.1
+Compatibility - Works with all game versions 1.0 -> 1.2
 
 Mod Compatibility - Should be compatable with everything. Uses xpath patching and overwrites no core files.
 
 Older versions - https://github.com/RusticFox/Exotic-Joy
 
-Mod Version: 2.0.1.4
+Mod Version: 2.1.1.4
 	</description>
 </ModMetaData>
